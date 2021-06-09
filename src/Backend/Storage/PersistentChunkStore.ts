@@ -1,4 +1,4 @@
-import { CORE_CONTRACT_ADDRESS } from '@darkforest_eth/contracts';
+import { CORE_CONTRACT_ADDRESS } from '../../../LocalContracts';
 import { IDBPDatabase, openDB } from 'idb';
 import stringify from 'json-stable-stringify';
 import _ from 'lodash';

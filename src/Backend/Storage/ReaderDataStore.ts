@@ -1,4 +1,4 @@
-import { CORE_CONTRACT_ADDRESS } from '@darkforest_eth/contracts';
+import { CORE_CONTRACT_ADDRESS } from '../../../LocalContracts';
 import {
   EthAddress,
   SpaceType,

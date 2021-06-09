@@ -3,7 +3,7 @@ import {
   CORE_CONTRACT_ADDRESS,
   WHITELIST_CONTRACT_ADDRESS,
   GPT_CREDIT_CONTRACT_ADDRESS,
-} from '@darkforest_eth/contracts';
+} from '../../../LocalContracts';
 import { JsonRpcProvider, TransactionReceipt } from '@ethersproject/providers';
 import {
   Wallet,

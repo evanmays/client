@@ -1,3 +1,9 @@
+# Trying to run Dark Forest Client locally???
+
+All you need to do is clone this repo, run the below commands, but swap out yarn start:prod with yarn start:dev
+
+This fork creates `src/Backend/Storage/LocalContracts.ts` and swaps out the contract addresses to the ones deployed with hardhat.
+
 # Dark Forest Client
 
 ## Development Guide
