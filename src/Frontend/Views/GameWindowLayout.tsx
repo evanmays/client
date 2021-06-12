@@ -66,7 +66,7 @@ export function GameWindowLayout() {
   const planetDetHook = useState<boolean>(false);
 
   const isOver = Date.now() > TOKEN_MINT_END;
-  const helpHook = useState<boolean>(isOver);
+  const helpHook = useState<boolean>(false); // remove the help pane from load
   const planetdexHook = useState<boolean>(false);
   const yourArtifactsHook = useState<boolean>(false);
   const upgradeDetHook = useState<boolean>(false);
